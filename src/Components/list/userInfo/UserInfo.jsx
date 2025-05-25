@@ -59,7 +59,7 @@ const UserInfo = () => {
       const userRef = doc(db, "users", currentUser.id);
       await updateDoc(userRef, {
         username: newUsername
-      });
+      }); 
 
       await fetchUserInfo(currentUser.id);
       setIsEditingUsername(false);
