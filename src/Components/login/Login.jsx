@@ -97,7 +97,7 @@ const Login = () => {
             disabled={loading} 
             className="p-4 border-none outline-none bg-purple-800 rounded-lg cursor-pointer font-medium hover:bg-purple-700 transition-all disabled:cursor-not-allowed disabled:bg-[#C700FF]"
           >
-            {loading ? "Loading..." : "Sign Up"}
+            {loading ? "Loading..." : "Sign in"}
           </button>
           <p className="text-center mt-4">
             Don't have an account?{" "}
@@ -155,7 +155,7 @@ const Login = () => {
             disabled={loading} 
             className="p-4 border-none outline-none bg-purple-800 rounded-lg cursor-pointer font-medium hover:bg-purple-700 transition-all disabled:cursor-not-allowed disabled:bg-[#C700FF]"
           >
-            {loading ? "Loading..." : "Sign In"} {/* Changed from "Sign Up" to "Sign In" */}
+            {loading ? "Loading..." : "Sign Up"} {/* Changed from "Sign Up" to "Sign In" */}
           </button>
           
           <p className="text-center mt-4 ">
